@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRK Mobiles</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+            <div class="overlay"></div>
+            <img class="mobile" src="./images/mobile.png" alt="">
+            <div class="circle" id="circle">
+                <div class="feature one">
+                    <img src="./images/camera.png" alt="camera">
+                    <div>
+                        <h1>Camera</h1>
+                        <p>48MP, Wide Angle Lens</p>
+                    </div>
+                </div>
+                <div class="feature two">
+                    <img src="./images/processor.png" alt="camera">
+                    <div>
+                        <h1>Processor</h1>
+                        <p>Snapdragon 8 Gen 2 4nm</p>
+                    </div>
+                </div>
+                <div class="feature three">
+                    <img src="./images/display.png" alt="camera">
+                    <div>
+                        <h1>Display</h1>
+                        <p>6.5" Mini-Drop Fullscreen</p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <img src="./images/battery.png" alt="camera">
+                    <div>
+                        <h1>Battery</h1>
+                        <p>5000mAh, 720Hrs Standby</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <img src="./images/arrow.png" id="btnUp" alt="">
+            <h3>Features</h3>
+            <img src="./images/arrow.png" id="btnDown" alt="">
+        </div>
+
+    </div>
+
+    <script>
+
+        let circle = document.getElementById("circle");
+        let btnUp = document.getElementById("btnUp");
+        let btnDown = document.getElementById("btnDown");
+
+        let rotateValue = circle.style.transform;
+        let rotateSum;
+
+        btnUp.onclick = function () {
+            rotateSum = rotateValue + "rotate(-90deg)"
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+
+
+        btnDown.onclick = function () {
+            rotateSum = rotateValue + "rotate(90deg)"
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
