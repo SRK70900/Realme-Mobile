@@ -1,16 +1,10 @@
-# SRK Portfolio Website
+# RealMe Mobile Website
 
 Click on the link below for live preview of the project
-### [SRK Portfolio Live Preview](https://srk70900portfolio.netlify.app/)
+### [RealMe Mobile Live Preview](https://realmemobile.netlify.app/)
 
-### SRK Portfolio Screenshot 1
-![SRK70900](https://github.com/SRK70900/PersonalPortfolio/blob/master/Screenshot%20(15).png)
-
-### SRK Portfolio Screenshot 2
-![SRK70900](https://github.com/SRK70900/PersonalPortfolio/blob/master/Screenshot%20(16).png)
-
-### SRK Portfolio Screenshot 3
-![SRK70900](https://github.com/SRK70900/PersonalPortfolio/blob/master/Screenshot%20(17).png)
+### RealMe Mobile Screenshot
+![SRK70900](https://github.com/SRK70900/Realme-Mobile/blob/master/Screenshot%20(20).png)
 
 ## Introduction
 
